@@ -1,0 +1,73 @@
+/* 
+    Created on : 24 mars 2016, 09:30:26
+    Author     : Dreadper
+*/
+header {
+   top:0%;
+   margin-bottom: 5%;
+   color: white;
+}
+
+body {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 1px;
+    background-image: url("image/background1.jpg");
+    color: white;
+}
+
+ul {
+ left: 50%;
+ list-style-type:none;
+ top: 8%;
+}
+
+
+li {
+ margin-left: 3%;
+ display : inline;
+ text-decoration:none;
+ text-align:center;
+ }
+ 
+ 
+ a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+ul li a:hover {
+ color: white;
+ } 
+
+ul li a:link {
+	color: white;
+}
+
+ul li a:visited {
+	color: white;
+}
+
+ #recette {
+     float: left;
+     color: white;
+     margin-left: 5%;
+     margin-right: auto;
+     height: 90px;
+     width: 150px ;
+     background-image: url("/image/pdf.ico");
+     background-size: 110px 90px;
+     background-repeat: no-repeat;
+ }
+ 
+ #footer {
+     margin-top: 6%;
+     display: inherit;
+     color: white;
+ }
